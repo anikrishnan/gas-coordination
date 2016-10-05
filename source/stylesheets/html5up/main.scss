@@ -492,6 +492,10 @@ $lightpurple: #ddcce4;
 			height: 100%;
 		}
 
+		&.fullscreenplus {
+			height: 170%;
+		}
+
 		&.style1 {
 			text-align: center;
 			padding: 3em 0 3em 0;
@@ -514,7 +518,8 @@ $lightpurple: #ddcce4;
 				@include vendor('transform', 'translateZ(0)');
 				opacity: 1.0;
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: top;
+				padding-top: 0.5em;
 			}
 
 			&.inactive .content {
@@ -1428,6 +1433,17 @@ $lightpurple: #ddcce4;
 	margin-left: 23rem;
 	margin-right: 23rem;
 	border-top: 4px solid $green;
-
 }
 
+
+.ui.button.purple-button {
+	background: $purple;
+	color: white;
+	border-radius: 0;
+}
+
+.chart {
+	margin-top: -35%;
+  width: 50%;
+  margin-left: 20px;
+}
