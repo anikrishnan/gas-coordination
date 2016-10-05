@@ -6,8 +6,10 @@
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
 
-    %title= current_page.data.title || "Gas"
-
+    %title= current_page.data.title || "Gas Leaks"
+    = javascript_include_tag "https://use.typekit.net/rqi7oqq.js"
+    :javascript
+      try{Typekit.load({ async: true });}catch(e){}
     = stylesheet_link_tag 'story'
 
   %body{:class => "#{page_classes}"}
@@ -17,8 +19,7 @@
 
     - js_files = %w( vendor/jquery.min vendor/html5up app )
     = javascript_include_tag *js_files
-    = javascript_include_tag "https://use.typekit.net/rqi7oqq.js"
+    
     /[if lte IE 8] <script src="assets/js/ie/respond.min.js"></script>
 
-    :javascript
-      try{Typekit.load({ async: true });}catch(e){}
+
