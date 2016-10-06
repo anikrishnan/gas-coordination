@@ -16,6 +16,12 @@
     = partial 'header'
     = yield
     -# = partial 'footer'
+    %svg{:height => "50", :version => "1.1", :width => "100", :xmlns => "http://www.w3.org/2000/svg"}
+      %defs
+        %lineargradient#MyGradient
+          %stop{:offset => "0", "stop-color" => "#eb955b"}
+          %stop{:offset => "100%", "stop-color" => "#e2543d"}
+
 
     - js_files = %w( vendor/jquery.min vendor/html5up app )
     = javascript_include_tag *js_files

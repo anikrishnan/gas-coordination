@@ -5,3 +5,5 @@
 //= require vendor/html5up/skel.min
 //= require vendor/html5up/util
 //= require vendor/html5up/main
+//= require vendor/c3.min
+//= require vendor/d3.min

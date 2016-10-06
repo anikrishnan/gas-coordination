@@ -97,7 +97,7 @@ $lightpurple: #ddcce4;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 300;
 		color: inherit;
 	}
 
@@ -493,7 +493,12 @@ $lightpurple: #ddcce4;
 		}
 
 		&.fullscreenplus {
-			height: 170%;
+			header {
+				h2,p {
+					text-align: left;	
+				}
+			}
+			height: 120%;
 		}
 
 		&.style1 {
@@ -837,6 +842,13 @@ $lightpurple: #ddcce4;
 /* One */
 
 	#one {
+		background: url('html5up/images/overlay.png'), url('../../images/one.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#underground {
 		background: url('../images/story/gasleaksform.png') no-repeat center center;
 		background-position: top center;
 		background-color: rgb(32,32,39);
@@ -1443,7 +1455,48 @@ $lightpurple: #ddcce4;
 }
 
 .chart {
-	margin-top: -35%;
-  width: 50%;
-  margin-left: 20px;
+	// margin-top: -38%;
+ //  width: 50%;
+ //  margin-left: 20px;
+  .c3-line {
+    stroke-width: 3px;
+  }
+
+  .c3, svg, .c3 svg {
+   // font: 1em sans-serif;
+   // font-family: 'Helvetica';
+  }
+
+  .c3-legend-item {
+    // font: 0.8em sans-serif;
+  }
+
+  #coordination .c3-circle {
+    r: 5;
+  }
+
+  .c3-grid line{
+    stroke-dasharray: none;
+    stroke-width: 0.5px;
+    opacity: 0.8;
+  }
+
+  .c3-region.superemitters {
+    shape-rendering: crispEdges;
+    fill: url(#MyGradient);
+  }
+
+  #superemitters .c3-circle {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+  }
+
+  .c3 .c3-axis path, .c3 .c3-axis line, .c3 .c3-axis text {
+    opacity: 0.6 !important;
+  }
+}
+
+.green {
+	color: $green
 }

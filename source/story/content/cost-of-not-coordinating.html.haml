@@ -1,19 +1,31 @@
-%section#one.main.style2.right.dark.fullscreen
+%section.main.style3.secondary.from-bottom
   .content.box.style2
     %header
       %h2 The Cost of Not Coordinating
     %p
-      %img.ui.fluid.image{ src: 'http://thenextweb.com/wp-content/blogs.dir/1/files/2015/06/9.-n3-charts.png' }
-    %p
       .ui.two.column.grid
         .eight.wide.column
           %p
-            %strong Yeah, I think you're right. Full reverse!
+  .content.container
+    .ui.grid
+      .twelve.wide.column
+        .chart#coordination
+      .four.wide.column
+        Assumptions:
+        %form#assumptions.ui.form
           %p
-            Chewie, lock in the auxiliary power. Why are we still moving towards it? We're caught in a tractor beam! It's pulling us in! But there's gotta be something you can do! There's nothin' I can do about it, kid. I'm in full power. I'm going to have to shut down.
-        .eight.wide.column
+            %input{:checked => "checked", :id => "0.3", :name => "radio", :type => "radio", :value => "0.3"}/
+            %label{:for => "0.3"} 30% of roads coordinated
           %p
-            %strong Aren't you a little short to be a stormtrooper?
+            %input{:id => "0.4", :name => "radio", :type => "radio", :value => "0.4"}/
+            %label{:for => "0.4"} 40% of roads coordinated
           %p
-            What? Oh...the uniform. I'm Luke Skywalker. I'm here to rescue you. You're who? I'm here to rescue you. I've got your R2 unit. I'm here with Ben Kenobi. Ben Kenobi is here! Where is he? Come on!
+            %input{:id => "0.5", :name => "radio", :type => "radio", :value => "0.5"}/
+            %label{:for => "0.5"} 50% of roads coordinated
+          %p
+            %input#1{:name => "radio", :type => "radio", :value => "1"}/
+            %label{:for => "1"} 100% of roads coordinated
+        %h3 Total Saved:
+        %h3#total-saved{:style => "color: #63afaa"}
+        %p Over 15 years
   %a.button.style2.down.anchored{:href => "#two"} Next
