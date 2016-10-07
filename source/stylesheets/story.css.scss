@@ -1,0 +1,86 @@
+@import 'semantic-ui/semantic-ui';
+@import 'html5up/main';
+@import 'c3.min.css';
+@import 'base.css.scss';
+
+
+#header {
+  background: $green;
+  color: white;
+  font-family: "open-sans",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+}
+
+#cost-not-coordinating {
+
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  width: 70px;
+  margin: 0 auto;
+  border-top: 4px solid $green;
+}
+
+.ui.divider:not(.vertical):not(.horizontal).left {
+  margin-left: 0 auto;
+}
+
+.ui.button.purple-button {
+  background: $purple;
+  color: white;
+  border-radius: 0;
+}
+
+.chart {
+  // margin-top: -38%;
+ //  width: 50%;
+ //  margin-left: 20px;
+  .c3-line {
+    stroke-width: 3px;
+  }
+
+  .c3, svg, .c3 svg {
+   // font: 1em sans-serif;
+   // font-family: 'Helvetica';
+  }
+
+  .c3-legend-item {
+    // font: 0.8em sans-serif;
+  }
+
+  #coordination .c3-circle {
+    r: 5;
+  }
+
+  .c3-grid line{
+    stroke-dasharray: none;
+    stroke-width: 0.5px;
+    opacity: 0.8;
+  }
+
+  .c3-region.superemitters {
+    shape-rendering: crispEdges;
+    fill: url(#MyGradient);
+  }
+
+  #superemitters .c3-circle {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+  }
+
+  .c3 .c3-axis path, .c3 .c3-axis line, .c3 .c3-axis text {
+    opacity: 0.6 !important;
+  }
+}
+
+.green {
+  color: $green
+}
+
+.style4 {
+  text-align: left;
+  padding: 6em 0 6em 0;
+}
