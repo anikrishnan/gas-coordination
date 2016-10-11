@@ -6,13 +6,16 @@
 @import 'twentytwenty/twentytwenty.css';
 
 
-#header {
-  background: $green;
-  color: white;
+header {
+  // background: $green;
+  // color: white;
   font-family: "open-sans",sans-serif;
   font-style: normal;
   font-weight: 600;
   text-align: left;
+  h2 {
+    font-family: "le-monde-livre-classic-byol",serif;
+  }
 }
 
 #cost-not-coordinating {
