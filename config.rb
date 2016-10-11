@@ -25,7 +25,7 @@ end
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, host: '127.0.0.1'
 end
 
 ###

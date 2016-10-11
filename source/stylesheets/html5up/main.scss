@@ -498,7 +498,7 @@ $lightpurple: #ddcce4;
 					text-align: left;	
 				}
 			}
-			height: 120%;
+			height: calc(100vh + 300px);
 		}
 
 		&.style1 {

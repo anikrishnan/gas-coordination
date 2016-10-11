@@ -283,100 +283,12 @@ $(document)
           }
         }
     });
-
-    var superemitter_data_bar = 'https://mapc-admin.carto.com/api/v2/sql?q=SELECT%20COUNT(cartodb_id)%20AS%20%22Count%22%2C%20SUM(extentareanum)%20AS%20%22Extent%20Area%22%2C%20case%20when%20extentareanum%20%3E%3D%201000%20THEN%20%27superemitter%27%20ELSE%20%27regular%27%20END%20AS%20status_type%20FROM%20%22mapc-admin%22.final_survey_carto%20GROUP%20BY%20status_type&format=csv';
-
-    d3.csv(superemitter_data_bar, function(response) {
-      console.log(response);
-      var chart = c3.generate({
-          bindto: "#superemitters2",
-          data: {
-              columns: [
-                  ['Super-Emitter', response[0]["Count"]],
-                  ['Regular', response[1]["Count"]]
-              ],
-              type: 'bar',
-              groups: [
-                  ['Super-Emitter', 'Regular']
-              ]
-          },
-          grid: {
-              y: {
-                  lines: [{value:0}]
-              }
-          },
-          axis: {
-              x: {
-                  type: 'category',
-                  categories: ["Count"]
-              },
-              y: {
-                tick: {
-                  format: function(d) {
-                    return d3.format(',')(d);
-                  }
-                },
-                label: {
-                  text: "Number of Leaks",
-                  position: "outer-middle"
-                }
-              }
-          },
-          color: {
-            pattern: ['#e2543d', '#189a8c']
-          }
-      });
-
-      var chart = c3.generate({
-          bindto: "#superemitters3",
-          data: {
-              columns: [
-                  ['Super-Emitter', response[0]["Extent Area"]],
-                  ['Regular', response[1]["Extent Area"]]
-              ],
-              type: 'bar',
-              groups: [
-                  ['Super-Emitter', 'Regular']
-              ],
-              axes: {
-                'Super-Emitter': 'y2',
-                'Regular': 'y2'
-              }
-          },
-          grid: {
-              y: {
-                  lines: [{value:0}]
-              }
-          },
-          axis: {
-              x: {
-                  type: 'category',
-                  categories: ["Extent of Leak"]
-              },
-              y: {
-                show: false
-              },
-              y2: {
-                type: "linear",
-                show: true,
-                tick: {
-                  format: function(d) {
-                    return d3.format(',')(d);
-                  }
-                },
-                label: {
-                  text: "Square Feet",
-                  position: "outer-middle"
-                }
-              }
-          },
-          color: {
-            pattern: ['#e2543d', '#189a8c']
-          }
-      });
-    });
-
+  
 
 
   })
 ;
+
+$(window).load(function() {
+  $('#image-slider').twentytwenty();
+});
