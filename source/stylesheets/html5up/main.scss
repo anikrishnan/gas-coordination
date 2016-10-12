@@ -33,7 +33,7 @@ $lightpurple: #ddcce4;
 	@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
-		grid: ( gutters: (40px, 40px) ),
+		// grid: ( gutters: (40px, 40px) ),
 		conditionals: true,
 		containers: 1440px,
 		breakpoints: (
@@ -96,21 +96,33 @@ $lightpurple: #ddcce4;
 		letter-spacing: 0.5px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: inherit;
-	}
+	// h1, h2, h3, h4, h5, h6 {
+	// 	font-weight: 300;
+	// 	color: inherit;
+	// }
 
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: inherit;
-		text-decoration: none;
-	}
+	// h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	// 	color: inherit;
+	// 	text-decoration: none;
+	// }
 
-	h2 {
-		font-size: 2.25em;
-		letter-spacing: -2px;
-		line-height: 1.25em;
-	}
+	// h2 {
+	// 	font-size: 2.25em;
+	// 	letter-spacing: -2px;
+	// 	line-height: 1.25em;
+	// }
+
+	// h3 {
+	// 	font-size: 1.50em;
+	// 	letter-spacing: -2px;
+	// 	line-height: 1em;
+	// }
+
+	// h4 {
+	// 	font-size: 1.25em;
+	// 	letter-spacing: -2px;
+	// 	line-height: 0.75em;
+	// }
 
 	strong, b {
 		font-weight: 900;

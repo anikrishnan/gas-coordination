@@ -239,6 +239,9 @@ $(document)
         }
     });
   
+  $('.accordion')
+    .accordion({ "exclusive": false })
+  ;
 
 
   })

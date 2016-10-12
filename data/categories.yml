@@ -1,44 +1,51 @@
+- 
+  section_name: "Set Foundation: Staffing & Communication"
+  gas_companies:
+      -
+        best_practice: Make contact information for keyt
+        id: 1
+        background: >
+          Municipalities frequently reported having old or obsolete contact information, often due to high rates of staff turnover at the gas company.
+      -
+        best_practice: Assess workload of key representativese
+        id: 2
+        background: >
+          Municipalities reported delays with the gas companies that may be attributed to excessively large territories and workloads for key representatives, like construction managers, maintenance managers, and community liaisons. Particularly as coordination efforts increase, gas companies should evaluate if current staffing levels can support the necessary work.
+      -
+        best_practice: Provide mechanism for municipalities to.
+        id: 3
+        background: >
+          When key representatives are overburdened or not performing, municipalities should have a way to notify the supervisor. This can provide valuable feedback to the gas company and an opportunity to direct the municipality to the correct point of contract, rather than having them scramble to find alternates.
+      -
+        best_practice: Incentivize key representatives to stay.
+        id: 4
+        background: >
+          Municipalities cited high rates of staff turnover in key representative positions. This complicated their coordination efforts and makes it challenging to leverage continuity, accumulate knowledge relevant to the municipality, and build trust. 
+  municipalities: 
+    -
+      best_practice: Drive communication through key representativesy
+      id: 1
+      background: >
+        Municipalities often utilize relationships with gas company staff in various departments. However, this can result in information getting siloed in just one department.  The gas companies key representatives will know how to move information around to the other parties in the gas company that may need the information. Driving communication through them will help maximize the chance that all relevant parties get information and updates.
+    -
+      best_practice: "Ensure that public works"
+      id: 2
+      background: >
+        In municipalities with water and sewer departments separate from public works, gas companies reported that one or more of the departments often does not participate in the coordination and planning process. For successful coordination in a given City or Town, all municipal departments with underground infrastructure and paving needs must be included.
+    -
+      best_practice: "Require paving contractors to"
+      id: 3
 -
-  name: Communicate effectively
-  id: 1
-  narrative: >
-    Gas company representatives who interact with the municipal staff serve a
-    critical role in conveying information back and forth between the two
-    organizations. Having good relationships in place allows both parties to
-    build trust, understand the needs and rules of the other party, and improve
-    communication&ndash;all of which can make the planning and execution of paving
-    and gas main work more efficient.
-  goals:
-    - Build trust and understanding between municipalities and utilities.
-    - Clarify policies with residents desiring new gas service.
-  action_steps:
-    - Provide access to contacts and records
-    - Minimize conflicts with residents
--
-  name: Coordinate work
-  id: 2
--
-  name: Share data
-  id: 3
--
-  name: Reorganize systems
-  id: 4
-  narrative: >
-    Many of the improvements we can make to improve coordination and save costs
-    during paving and gas line repair are short-term, meaning they can be done
-    during or shortly before the construction season. Some, however, require
-    a more significant investment.
-
-    Our basic premise is this: we cannot succesfully repair 400% of the normal
-    amount of gas line with the systems we use presently. In order to make our
-    plan work and repair our aging infrastructure, we must structure our work
-    in a way that significantly increases our capacity.
-  goals:
-    - Stabilize working relationships betweeen municipalities and utilities.
-    - Improve work systems to meet the challenge.
-    - Improve internal processes of municipalities and utilities.
-  action_steps:
-    - Assess capacity to reduce staff turnover
-    - Improve staff transition process
-    - Incorporate GIS
-    - Resolve tense relationships
+  section_name: "Data Management"
+  gas_companies: 
+    -
+      best_practice: Determine full list of whichs
+      id: 1
+      background: >
+        to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+  municipalities: 
+    -
+      best_practice: Acquire access to Geographic Information)
+      id: 2
+      background: >
+        Compared to using spreadsheets alone, putting plans and completed projects in GIS facilitates efficient comparison of multi-year municipal and gas company plans, as well as other utilities

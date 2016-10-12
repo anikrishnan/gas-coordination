@@ -1,41 +1,33 @@
-.sixteen.wide.column
-  = partial 'header'
-
-.sixteen.wide.column
-  .header
-    %h1
-      %a.ui.large.basic.green.circular.label
-    .ui.grid
+.ui.container
+  %h2
+    Best Practices
+  .ui.divider
+  - data.categories.each do |section|
+    %h3
+      = section.section_name
+    .ui.grid.container
       .row
-        .ten.wide.column
-          %p.intro
-        .six.wide.column
-
-.sixteen.wide.column
-  %hr
-  .ui.horizontal.divider
-  .ui.grid#goals
-    .row
-      .sixteen.wide.column
-        %h3
-          %i.green.circle.checkmark.icon
-          Goals for this phase
-
-.sixteen.wide.column
-  %hr
-  .ui.horizontal.divider
-
-.ten.wide.column
-  .ui.grid
-    .row
-      .sixteen.wide.column
-        %h3 Action Steps
-        .ui.fluid.accordion#action-steps
-
-.six.wide.column
-  .ui.grid
-    .sixteen.wide.column
-      .ui.tertiary.inverted.olive.segment
-
-.sixteen.wide.column
-  %h4 Ready for more? Explore another phase in the mortgage process.
+        .eight.wide.column
+          %h4
+            Gas Company
+          .ui.divider
+          .ui.accordion
+            - section.gas_companies.each do |gas_company|
+              .title
+                %i.dropdown.icon
+                = gas_company.best_practice
+              .content
+                %p 
+                  = gas_company.background
+        .eight.wide.column
+          %h4
+            Municipality
+          .ui.divider
+          .ui.accordion
+            - section.municipalities.each do |municipality|
+              .title
+                %i.dropdown.icon
+                = municipality.best_practice
+              .content
+                %p
+                  = municipality.background
