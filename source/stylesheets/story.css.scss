@@ -15,6 +15,7 @@ header {
   text-align: left;
   h2 {
     font-family: "le-monde-livre-classic-byol",serif;
+    text-align: center;
   }
 }
 
@@ -25,12 +26,10 @@ header {
 .ui.divider:not(.vertical):not(.horizontal) {
   width: 70px;
   margin: 0 auto;
+  margin-top: 4px;
   border-top: 4px solid $green;
 }
 
-.ui.divider:not(.vertical):not(.horizontal).left {
-  margin-left: 0 auto;
-}
 
 .ui.button.purple-button {
   background: $purple;
@@ -86,6 +85,10 @@ header {
 }
 
 .style4 {
-  text-align: left;
+  text-align: center;
   padding: 6em 0 6em 0;
+}
+
+#underground {
+  height: 80%;
 }

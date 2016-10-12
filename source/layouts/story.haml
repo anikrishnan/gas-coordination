@@ -21,9 +21,13 @@
         %lineargradient#MyGradient
           %stop{:offset => "0", "stop-color" => "#eb955b"}
           %stop{:offset => "100%", "stop-color" => "#e2543d"}
+    %svg{:height => "50", :width => "100"}
+      %marker#arrow{:markerheight => "20", :markerwidth => "20", :orient => "auto", :style => "fill: #39454b;", :viewbox => "-10 -10 20 20"}
+        %path{:d => "M-6.75,-6.75 L 0,0 L -6.75,6.75"}
 
 
-    - js_files = %w( vendor/html5up app vendor/jquery.event.move vendor/jquery.twentytwenty )
+
+    - js_files = %w( vendor/html5up app vendor/jquery.event.move vendor/jquery.twentytwenty vendor/swoopydrag )
     = javascript_include_tag *js_files
     
     /[if lte IE 8] <script src="assets/js/ie/respond.min.js"></script>

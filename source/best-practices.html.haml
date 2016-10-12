@@ -5,14 +5,11 @@
   .header
     %h1
       %a.ui.large.basic.green.circular.label
-        = category.id
-      = category.name
     .ui.grid
       .row
         .ten.wide.column
-          %p.intro= category.narrative
+          %p.intro
         .six.wide.column
-          %img{:src => category.image}/
 
 .sixteen.wide.column
   %hr
@@ -23,10 +20,6 @@
         %h3
           %i.green.circle.checkmark.icon
           Goals for this phase
-    .row
-      - (category.goals || []).each do |goal|
-        .five.wide.column
-          = goal
 
 .sixteen.wide.column
   %hr
@@ -38,23 +31,11 @@
       .sixteen.wide.column
         %h3 Action Steps
         .ui.fluid.accordion#action-steps
-          - (category.action_steps || []).each.with_index(1) do |step, index|
-            - path_info = [:categories, :content, category.name, step]
-            .title
-              %h4= "#{index}. #{step}"
-            .content
-              .ui.basic.text.segment
-                = step_markdown path_info
 
 .six.wide.column
   .ui.grid
     .sixteen.wide.column
       .ui.tertiary.inverted.olive.segment
-        %h5 Tools for this phase
-        - (category.tools || []).each do |tool|
-          %p= tool.description
-          %p
-            %a{href: "#{tool.link.url}"}= tool.link.text
 
 .sixteen.wide.column
   %h4 Ready for more? Explore another phase in the mortgage process.

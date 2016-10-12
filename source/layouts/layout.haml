@@ -7,11 +7,12 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
 
     %title= current_page.data.title || "Middleman Semantic UI"
-    = stylesheet_link_tag 'style'
+    = stylesheet_link_tag 'base'
   %body{:class => "#{page_classes}"}
+    = partial 'header'
     .ui.container
       .ui.sixteen.column.stackable.grid
         = yield
 
-    = javascript_include_tag *%w( vendor/jquery.min vendor/semantic-ui app )
-
+    - js_files = %w( vendor/html5up app vendor/jquery.event.move vendor/jquery.twentytwenty vendor/swoopydrag )
+    = javascript_include_tag *js_files
