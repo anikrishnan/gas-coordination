@@ -34,10 +34,12 @@ title: "Best Practices"
                   Gas Company
                 .ui.divider
                 .ui.accordion
-                  - subsection.gas_companies.each do |gas_company|
+                  - subsection.gas_companies.each_with_index do |gas_company, index|
                     .title
-                      %i.dropdown.icon
+                      = (index + 1).to_s + "."
+                      &nbsp;
                       = gas_company.best_practice
+                      %i.dropdown.icon
                     .content
                       %p 
                         = gas_company.background
@@ -47,10 +49,12 @@ title: "Best Practices"
                   Municipality
                 .ui.divider
                 .ui.accordion
-                  - subsection.municipalities.each do |municipality|
+                  - subsection.municipalities.each_with_index do |municipality, index|
                     .title
-                      %i.dropdown.icon
+                      = (index + 1).to_s + "."
+                      &nbsp;
                       = municipality.best_practice
+                      %i.dropdown.icon
                     .content
                       %p
                         = municipality.background
