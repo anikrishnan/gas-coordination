@@ -10,7 +10,7 @@ $(document)
     ;
 
     $('.menu .item')
-      .tab()
+      .tab({ history : true })
     ;
 
   })
