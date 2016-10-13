@@ -21,7 +21,7 @@ title: "Best Practices"
             = subsection.name
       - section.subsection.each_with_index do |subsection,index|
         %div{class: ["ui", "tab", "bottom", "attached", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
-          .ui.equal.width.grid.container
+          .ui.equal.width.stackable.grid.container
             - if subsection.gas_companies 
               .column
                 %h4
