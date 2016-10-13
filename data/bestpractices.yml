@@ -74,8 +74,43 @@
     With communication systems, infrastructure plans and appropriate technology in place, the next step of coordination relies on sharing data between the gas company and municipality, identifying projects on which to coordinate scheduling, and establishing a process to keep both parties moving in sync over the course of the construction season. For gas companies, the shared data should include all years of gas main replacement plans, as well as background information on the existence of gas mains throughout a municipality and the location of gas leaks. For municipalities, it should include all years of its own infrastructure plans. Where possible and valuable, sharing plans in GIS should be offered by both gas companies and municipalities. Both parties need to be open to adjusting schedules to facilitate synchronizing projects on the same segment of road during the same construction season.
   subsection: 
     -
-      name: "Staffing & Communication"
-
+      name: "Sharing Data to Influence Plans"
+      gas_companies: 
+        -
+          best_practice: "Annually, request all years of all infrastructure plans - paving, water and sewer - from municipality."
+          background: >
+            Some municipalities reported sharing only one year of plans because gas company did not ask for multiple years.
+        -
+          best_practice: Set deadline for municipalities to submit plans no earlier than January 31.
+          background: >
+            Municipalities need sufficient time to update plans after the construction season has ended. 
+        -
+          best_practice: Share with municipality all five years of GSEP plan for street segments with planned main replacements.
+          background: >
+            Many municipalities reported only having access to one year of gas company plans at a time.
+        -
+          best_practice: "Municipality’s can use this data to improve planning and coordination process by indicating which projects might encroach upon leak-prone pipe and which road segments will need pipe replaced eventually. This does need to include the level of detail necessary to locate the pipe in the street, pipe size, pressure or existence of other gas-system equipment. "
+          background: >
+            Many municipalities reported only having access to one year of gas company plans at a time.
+        -
+          best_practice: Share gas leak data submitted in the Annual Service Quality Reports
+          background: >
+            The data is publicly available but hard for municipalities to access. Providing this data would increase transparency and help the municipality understand which areas are more and less leaky.
+        -
+          best_practice: "If requested for municipal engineering projects, share all data on location of gas mains but only for that street segment"
+          background: >
+            Municipalities need to identify potential conflicts with gas infrastructure during the design phase, to avoid expensive delays and/or revisions to design. Dig Safe mark-outs happen too late to inform this process. Information shared should include the level of detail necessary to locate the pipe in the street, pipe size, and existence of other gas-system equipment. 
+      municipalities: 
+        -
+          best_practice: "Annually, share all years of all infrastructure plans (including completed projects and moratorium information) with gas company."
+        -
+          best_practice: Ensure annual receipt of updated 5 year GSEP plan for gas main replacement
+        -
+          best_practice: Request map showing existence of gas main on streets and type of pipe.
+        -
+          best_practice: "Municipality’s can use this data to improve planning and coordination process by indicating which projects might encroach upon leak-prone pipe and which road segments will need pipe replaced eventually. This does need to include the level of detail necessary to locate the pipe in the street, pipe size, pressure or existence of other gas-system equipment. "
+          background: >
+            Many municipalities reported only having access to one year of gas company plans at a time.
 
 - 
   section: "Generate & Capture Savings"
