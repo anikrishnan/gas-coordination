@@ -1,5 +1,7 @@
 - 
   section: "Set Foundation"
+  description: >
+    To effectively coordinate, both gas companies and municipalities must have the appropriate structures in place to build upon and utilize. Based on feedback from municipalities, it is clear that gas company staffing and communication issues are a source of municipal frustration and impediment to coordination. Municipalities also have their own improvements on communication, to ensure that departments like Water and Sewer, which might be separate from Public Works, are effectively included in the coordination process with the gas company. Additionally, municipalities need to develop their own multi-year infrastructure plans and track completed work; without this information, gas companies have extremely limited ability to align their infrastructure plans with municipal work. Finally, municipalities could position themselves to more effectively use their own plan data and shared data from the gas company by leveraging existing technologies.  
   subsection: 
     -
       name: "Staffing & Communication"
@@ -68,6 +70,8 @@
           best_practice: "Put paving, water, and sewer plans and completed paving data into into GIS "
 - 
   section: "Share & Strategize"
+  description: >
+    With communication systems, infrastructure plans and appropriate technology in place, the next step of coordination relies on sharing data between the gas company and municipality, identifying projects on which to coordinate scheduling, and establishing a process to keep both parties moving in sync over the course of the construction season. For gas companies, the shared data should include all years of gas main replacement plans, as well as background information on the existence of gas mains throughout a municipality and the location of gas leaks. For municipalities, it should include all years of its own infrastructure plans. Where possible and valuable, sharing plans in GIS should be offered by both gas companies and municipalities. Both parties need to be open to adjusting schedules to facilitate synchronizing projects on the same segment of road during the same construction season.
   subsection: 
     -
       name: "Staffing & Communication"
@@ -75,6 +79,12 @@
 
 - 
   section: "Generate & Capture Savings"
+  description: >
+    Both the gas company and municipalities have the ability to generate and capture financial savings through project coordination and adjusting trench restoration protocols. If appropriately captured, these savings can not only incentivize improved coordination, but can fund accelerated gas main replacement and additional paving projects. 
+
+    If funds will be exchanged, the municipality will need to sign some form of agreement with the gas company (bi-lateral agreement). The agreement can memorialize the coordination practices expected of each party, make official the restoration practices allowed, and specify how savings will be calculated and shared. Discussions about these procedures can happen over the off-season and at the pre-construction season meeting.
+
+    Capturing these savings can provide an incentive as well as financial support, for a municipality to implement improved coordination practices.
   subsection: 
     -
       name: "Staffing & Communication"
@@ -82,6 +92,8 @@
 
 - 
   section: "Find Efficiencies"
+  description: >
+    Across all gas main replacement and municipal paving projects, not just those that will be coordinated, there ways to improve efficiencies to save time and money for both parties. If new customers and developments can be better managed, it may avoid cuts into roads under moratorium or recently repaved, reducing frustration and avoiding paving costs. The municipal permit system can be upgrade dramatically to reduce gas company and municipality administrative time, through measures such as email submissions and batch invoicing or through online permitting and payment. Improvements to the mark-out process exist for both the gas company and municipality to reduce incidence of damaged infrastructure and work delays. And targeted changes to the trench repair and tree planting approaches can result in better roads and tree survival while minimizing cost.
   subsection: 
     -
       name: "Staffing & Communication"

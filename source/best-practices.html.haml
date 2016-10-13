@@ -1,5 +1,5 @@
 .ui.container  
-  %h2
+  %h2.ui.header
     Best Practices
   .ui.pointing.secondary.menu
     - data.bestpractices.each_with_index do |section, index|
@@ -7,6 +7,10 @@
         = section.section
   - data.bestpractices.each_with_index do |section, index|
     %div{class: ["ui", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section}
+      %h3.ui.header
+        = section.section
+      %p 
+        = section.description
       .ui.top.attached.tabular.menu
         - section.subsection.each_with_index do |subsection,index|
           %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section + "/" + subsection.name }
