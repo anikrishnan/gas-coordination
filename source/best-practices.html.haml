@@ -8,19 +8,25 @@ title: "Best Practices"
   .ui.pointing.secondary.menu
     - data.bestpractices.each_with_index do |section, index|
       %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
+        %div.ui.circular.label
+          = index + 1
+        &nbsp;
         = section.section
   - data.bestpractices.each_with_index do |section, index|
-    %div{class: ["ui", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_')}
+    %div{ class: ["ui", "segment", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
       %h3.ui.header
+        %div.ui.circular.label
+          = index + 1
+        &nbsp; 
         = section.section
-      %p 
+      %p
         = section.description
-      .ui.top.attached.tabular.menu
+      .ui.top.attached.pointing.menu
         - section.subsection.each_with_index do |subsection,index|
           %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
             = subsection.name
       - section.subsection.each_with_index do |subsection,index|
-        %div{class: ["ui", "tab", "bottom", "attached", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
+        %div{class: ["ui", "tab", "bottom", "segment", "attached", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
           .ui.equal.width.stackable.grid.container
             - if subsection.gas_companies 
               .column
