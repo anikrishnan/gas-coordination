@@ -3,7 +3,7 @@ title: "Best Practices"
 ---
 
 .ui.container  
-  %h2.ui.header
+  %h1.ui.header
     Best Practices
   .ui.pointing.secondary.menu
     - data.bestpractices.each_with_index do |section, index|
@@ -15,9 +15,6 @@ title: "Best Practices"
   - data.bestpractices.each_with_index do |section, index|
     %div{ class: ["ui", "segment", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
       %h3.ui.header
-        %div.ui.circular.label
-          = index + 1
-        &nbsp; 
         = section.section
       %p
         = section.description
