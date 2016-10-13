@@ -1,0 +1,89 @@
+- 
+  section: "Set Foundation"
+  subsection: 
+    -
+      name: "Staffing & Communication"
+      gas_companies:
+        -
+          best_practice: Make contact information for keyt
+          background: >
+            Municipalities frequently reported having old or obsolete contact information, often due to high rates of staff turnover at the gas company.
+        -
+          best_practice: Assess workload of key representativese
+          background: >
+            Municipalities reported delays with the gas companies that may be attributed to excessively large territories and workloads for key representatives, like construction managers, maintenance managers, and community liaisons. Particularly as coordination efforts increase, gas companies should evaluate if current staffing levels can support the necessary work.
+        -
+          best_practice: Provide mechanism for municipalities to.
+          background: >
+            When key representatives are overburdened or not performing, municipalities should have a way to notify the supervisor. This can provide valuable feedback to the gas company and an opportunity to direct the municipality to the correct point of contract, rather than having them scramble to find alternates.
+        -
+          best_practice: Incentivize key representatives to stay.
+          background: >
+            Municipalities cited high rates of staff turnover in key representative positions. This complicated their coordination efforts and makes it challenging to leverage continuity, accumulate knowledge relevant to the municipality, and build trust.
+      municipalities: 
+        -
+          best_practice: Drive communication through key representativesy
+          background: >
+            Municipalities often utilize relationships with gas company staff in various departments. However, this can result in information getting siloed in just one department.  The gas companies key representatives will know how to move information around to the other parties in the gas company that may need the information. Driving communication through them will help maximize the chance that all relevant parties get information and updates.
+        -
+          best_practice: "Ensure that public works"
+          background: >
+            In municipalities with water and sewer departments separate from public works, gas companies reported that one or more of the departments often does not participate in the coordination and planning process. For successful coordination in a given City or Town, all municipal departments with underground infrastructure and paving needs must be included.
+        -
+          best_practice: "Require paving contractors to"
+    -
+      name: "Infrastructure Plans"
+      municipalities:
+        -
+          best_practice: Develop and update annually pavement management plan that identifies street segments slated for paving by year and with type of paving.
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+        -
+          best_practice: Determine full list of which municipal plans and records are needed and by which groups
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+    -
+      name: "Data Management"
+      gas_companies: 
+        -
+          best_practice: Determine full list of which municipal plans and records are needed and by which groups
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+        -
+          best_practice: Assign responsibilities for making data requests to municipalities and sharing data and updates
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+      municipalities: 
+        -
+          best_practice: Acquire access to Geographic Information Systems (GIS)
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+        -
+          best_practice: "In cities with complex coordination needs, explore the potential and need for a data-base system like COBUCs"
+          background: >
+            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+        -
+          best_practice: "Ensure at least one staff member is trained on use of GIS"
+        -
+          best_practice: "Put paving, water, and sewer plans and completed paving data into into GIS "
+- 
+  section: "Share & Strategize"
+  subsection: 
+    -
+      name: "Staffing & Communication"
+
+
+- 
+  section: "Generate & Capture Savings"
+  subsection: 
+    -
+      name: "Staffing & Communication"
+
+
+- 
+  section: "Find Efficiencies"
+  subsection: 
+    -
+      name: "Staffing & Communication"
+
+

@@ -1,33 +1,42 @@
-.ui.container
+.ui.container  
   %h2
     Best Practices
-  .ui.divider
-  - data.categories.each do |section|
-    %h3
-      = section.section_name
-    .ui.grid.container
-      .row
-        .eight.wide.column
-          %h4
-            Gas Company
-          .ui.divider
-          .ui.accordion
-            - section.gas_companies.each do |gas_company|
-              .title
-                %i.dropdown.icon
-                = gas_company.best_practice
-              .content
-                %p 
-                  = gas_company.background
-        .eight.wide.column
-          %h4
-            Municipality
-          .ui.divider
-          .ui.accordion
-            - section.municipalities.each do |municipality|
-              .title
-                %i.dropdown.icon
-                = municipality.best_practice
-              .content
-                %p
-                  = municipality.background
+  .ui.pointing.secondary.menu
+    - data.bestpractices.each_with_index do |section, index|
+      %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section }
+        = section.section
+  - data.bestpractices.each_with_index do |section, index|
+    %div{class: ["ui", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section}
+      .ui.top.attached.tabular.menu
+        - section.subsection.each_with_index do |subsection,index|
+          %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section + "/" + subsection.name }
+            = subsection.name
+      - section.subsection.each_with_index do |subsection,index|
+        %div{class: ["ui", "tab", "bottom", "attached", "tab", "segment", ("active" unless (index > 0)) ], "data-tab": section.section + "/" + subsection.name }
+          .ui.equal.width.grid.container
+            - if subsection.gas_companies 
+              .column
+                %h4
+                  Gas Company
+                .ui.divider
+                .ui.accordion
+                  - subsection.gas_companies.each do |gas_company|
+                    .title
+                      %i.dropdown.icon
+                      = gas_company.best_practice
+                    .content
+                      %p 
+                        = gas_company.background
+            - if subsection.municipalities  
+              .column
+                %h4
+                  Municipality
+                .ui.divider
+                .ui.accordion
+                  - subsection.municipalities.each do |municipality|
+                    .title
+                      %i.dropdown.icon
+                      = municipality.best_practice
+                    .content
+                      %p
+                        = municipality.background
