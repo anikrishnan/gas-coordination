@@ -859,18 +859,18 @@ $lightpurple: #ddcce4;
 		height: 100%;
 		pointer-events: none;
 		background: url("../images/story/RepeatingClouds-01.png");
-		-webkit-animation: backgroundScroll 20s linear infinite;
-		animation: backgroundScroll 20s linear infinite;  
+		-webkit-animation: backgroundScroll 100s linear infinite;
+		animation: backgroundScroll 100s linear infinite;  
 	}
 
 	@-webkit-keyframes backgroundScroll {
 		from {background-position: 0 0;}  
-		to {background-position: -400px 0;}  
+		to {background-position: 100% 0;}  
 	}
 
 	@keyframes backgroundScroll {
 		from {background-position: 0 0;}  
-		to {background-position: -400px 0;}  
+		to {background-position: 100% 0;}  
 	}
 
 
@@ -900,7 +900,7 @@ $lightpurple: #ddcce4;
 /* Two */
 
 	#two {
-		background: url('html5up/images/overlay.png'), url('../../images/two.jpg');
+		background: url('html5up/images/overlay.png'), url('../images/story/map3.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
