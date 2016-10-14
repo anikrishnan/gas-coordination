@@ -55,3 +55,18 @@ title: "Best Practices"
                     .content
                       %p
                         = municipality.background
+            - if subsection.both  
+              .column
+                %h4
+                  Municipality & Gas Company
+                .ui.divider
+                .ui.accordion
+                  - subsection.both.each_with_index do |both, index|
+                    .title
+                      = (index + 1).to_s + "."
+                      &nbsp;
+                      = both.best_practice
+                      %i.dropdown.icon
+                    .content
+                      %p
+                        = both.background

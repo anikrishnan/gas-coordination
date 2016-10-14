@@ -7,32 +7,67 @@
       name: "Staffing & Communication"
       gas_companies:
         -
-          best_practice: Make contact information for keyt
+          best_practice: Provide online contact list of key representatives
           background: >
-            Municipalities frequently reported having old or obsolete contact information, often due to high rates of staff turnover at the gas company.
+            Key representatives should include: Community liaison (i.e. point-person) and managers for gas main planning, gas main construction, gas main maintenance (i.e. leak repair), and new services.
+
+            Municipalities frequently reported having old or obsolete contact information, often due to high rates of staff turnover at the gas company. An online list would eliminate the hassle and confusion municipalities currently report when trying to find the correct contact, and it would increase the likelihood that the right person at the gas company receives the information.
         -
-          best_practice: Assess workload of key representativese
+          best_practice: Provide mechanism for municipal feedback to supervisors of key representatives
           background: >
-            Municipalities reported delays with the gas companies that may be attributed to excessively large territories and workloads for key representatives, like construction managers, maintenance managers, and community liaisons. Particularly as coordination efforts increase, gas companies should evaluate if current staffing levels can support the necessary work.
-        -
-          best_practice: Provide mechanism for municipalities to.
-          background: >
+            Provide contact information or an email submission form along with the online contact list.
+
             When key representatives are overburdened or not performing, municipalities should have a way to notify the supervisor. This can provide valuable feedback to the gas company and an opportunity to direct the municipality to the correct point of contract, rather than having them scramble to find alternates.
         -
-          best_practice: Incentivize key representatives to stay.
+          best_practice: Regularly assess workload and efficacy of key representatives 
           background: >
-            Municipalities cited high rates of staff turnover in key representative positions. This complicated their coordination efforts and makes it challenging to leverage continuity, accumulate knowledge relevant to the municipality, and build trust.
+            Adjust staffing or workload in response. May involve muni surveys
+
+            Municipalities reported delays with the gas companies that may be attributed to excessively large territories and workloads for key representatives. As coordination efforts increase, gas companies should evaluate if current staffing levels can support the necessary work.
+        -
+          best_practice: Incentivize key representatives to stay in position for more than one year
+          background: >
+            Municipalities cited high rates of staff turnover in key representative positions as a source of frustration and complication for their coordination efforts. Turnover makes it challenging to accumulate knowledge relevant to the municipality and build trust. 
+
+            Using strategies like bonuses, awards or internal recognition, may be useful ways to encourage representatives to stay for at least two construction seasons.
+        -
+          best_practice: Implement a standard transition process for key representatives.
+          background: >
+            Some turnover is inevitable. When that does occur, a company wide policy for managing the transition, including whether or not an in-person, phone, or email introduction is made and when, will help ensure continuity and minimize chances for municipal frustration and missed communication.
       municipalities: 
         -
-          best_practice: Drive communication through key representativesy
+          best_practice: "Establish policy to coordinate paving, water, and sewer infrastructure planning efforts internally."
           background: >
+            Gas companies reported that one or more of the departments with infrastructure responsibilities outside of paving, such as water and sewer, often do not participate in the coordination and planning process.
+
+            For successful coordination, all these departments - whether housed under a single Public Works department or not - must work together to participate in planning and coordination efforts with gas company.
+
+            It may be necessary for one department to take the lead on interacting with the gas company and organizing the municipal departments.
+        -
+          best_practice: "Obtain contact information for gas company key representatives"
+          background: >
+            This information should be requested if not already provided through through a website by gas company.
+
             Municipalities often utilize relationships with gas company staff in various departments. However, this can result in information getting siloed in just one department.  The gas companies key representatives will know how to move information around to the other parties in the gas company that may need the information. Driving communication through them will help maximize the chance that all relevant parties get information and updates.
         -
-          best_practice: "Ensure that public works"
+          best_practice: "Include requirement in paving contracts for minimum notice of schedule changes"
           background: >
-            In municipalities with water and sewer departments separate from public works, gas companies reported that one or more of the departments often does not participate in the coordination and planning process. For successful coordination in a given City or Town, all municipal departments with underground infrastructure and paving needs must be included.
+            Contract should require a minimum of two weeks notice for schedule changes. As more municipalities implement this, it will become the standard, rather than the exception for paving contractors. Columbia Gas has reported initial success with some of their municipalities using such contract language.
+
+            Municipalities and gas companies reported that paving contractors routinely change schedules with little advanced notice. When schedules are moved earlier, gas companies cannot always adjust to survey and repair gas leaks, replace their leak-prone mains, or raise gas gates. This results in excess cost and missed opportunities to address leaks. 
+      both: 
         -
-          best_practice: "Require paving contractors to"
+          best_practice: "Hold pre-construction season meeting"
+          background: >
+            The municipality and gas company should meet to have a one-on-one meeting in person ahead of the construction season. The meeting will serve to:
+            Introduce all participants in the coordination process for gas company and municipality
+            Compare infrastructure plans and identify opportunities for aligning schedules
+            Establish communication procedures for the construction season
+            Establish clarity on restoration, paving and inspection procedures
+
+            *Hold in late February - This provides sufficient time for parties to update plans and allow times before construction season to accommodate changes in schedule
+
+            See Share & Strategize and Generate & Capture Savings for pre-construction season meeting details.
     -
       name: "Infrastructure Plans"
       municipalities:
