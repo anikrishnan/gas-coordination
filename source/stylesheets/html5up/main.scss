@@ -513,7 +513,7 @@ $lightpurple: #ddcce4;
 					letter-spacing: 2px;
 				}
 			}
-			height: calc(100vh + 300px);
+			height: calc(100vh + 500px);
 		}
 
 		&.style1 {
@@ -844,7 +844,7 @@ $lightpurple: #ddcce4;
 	#intro {
 		background: url("../images/story/townscape1.png") no-repeat center center;
 		// background-color: white;
-		// background-size: 100% 100%, cover;
+		background-size: 100%, cover;
 		// background-attachment: fixed, fixed;
 		background-position: bottom center;
 		// background-repeat: repeat, no-repeat;
@@ -859,7 +859,7 @@ $lightpurple: #ddcce4;
 		position: absolute;
 		top: 0;
 		width: 100%;
-		height: 100%;
+		height: 120%;
 		pointer-events: none;
 		background: url("../images/story/RepeatingClouds-01.png");
 		-webkit-animation: backgroundScroll 100s linear infinite;
