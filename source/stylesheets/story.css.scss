@@ -32,7 +32,8 @@ header {
 .ui.divider:not(.vertical):not(.horizontal) {
   width: 70px;
   margin: 0 auto;
-  margin-top: 4px;
+  margin-top: 20px;
+  margin-bottom:20px;
   border-top: 4px solid $green;
 }
 
