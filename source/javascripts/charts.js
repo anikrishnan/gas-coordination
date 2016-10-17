@@ -71,7 +71,7 @@
               "xVal": 1798761600000,
               "yVal": 289100000,
               "path": "M152,22C171,30,184,45,178,82",
-              "text": "Status Quo",
+              "text": "Cost with Status Quo",
               "textOffset": [
                 73,
                 17
@@ -81,7 +81,7 @@
               "xVal": 1798761600000,
               "yVal": 289100000,
               "path": "M-6,180C17,204,75,227,109,198",
-              "text": "With Coordination",
+              "text": "Cost With Coordination",
               "textOffset": [
                 -122,
                 173
