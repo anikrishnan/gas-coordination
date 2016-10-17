@@ -17,6 +17,26 @@ body {
   }
 }
 
+h1.ui.header {
+  font-size: 4rem;
+  color: $green;
+}
+
+h2.ui.header {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+h3.ui.header {
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+}
+
+h1.ui.header, h2.ui.header, h3.ui.header, h4.ui.header {
+  font-family: "le-monde-livre-classic-byol",serif;
+  font-weight: 300;
+}
+
 #fontsizefix:before {
   font-size: 1em;
 }
@@ -25,10 +45,52 @@ body {
   background-color: #999 !important;
 }
 
-.active-red {
+.color-0.active {
   border-color: $red !important;
+  .label {
+    background: $red !important;
+  }
 }
 
-.active-red {
-  border-color: $red !important;
+.color-1.active {
+  border-color: $green !important;
+  .label {
+    background: $green !important;
+  }
+}
+
+.color-2.active {
+  border-color: $purple !important;
+  .label {
+    background: $purple !important;
+  }
+}
+
+.color-3.active {
+  border-color: $orange !important;
+  .label {
+    background:  $orange !important;
+  }
+}
+
+.color-4.active {
+  border-color: $teal !important;
+  .label {
+    background: $teal !important;
+  }
+}
+
+
+.row {
+  margin: inherit;
+}
+
+.ui.secondary.pointing.menu .item {
+  border-bottom-width: 4px !important;
+  border-bottom-color: rgb(232, 232, 232);
+}
+
+.ui.secondary.pointing.menu {
+  border-bottom-color: rgb(232, 232, 232); 
+  // border-bottom-width: 4px !important;
 }

@@ -7,7 +7,7 @@ title: "Best Practices"
     Best Practices
   .ui.pointing.secondary.menu
     - data.bestpractices.each_with_index do |section, index|
-      %a{class: ["item", ("active" unless (index > 0)), ("active-red" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
+      %a{class: ["item", ("active" unless (index > 0)), "color-" + index.to_s ], "data-tab": section.section.parameterize('_') }
         %div.ui.circular.label
           = index + 1
         &nbsp;
@@ -19,7 +19,7 @@ title: "Best Practices"
       Resources
   - data.bestpractices.each_with_index do |section, index|
     %div{ class: ["ui", "segment", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
-      %h3.ui.header
+      %h2.ui.header
         = section.section
       %p
         = section.description
@@ -32,7 +32,7 @@ title: "Best Practices"
           .ui.equal.width.stackable.grid.container
             - if subsection.gas_companies 
               .column
-                %h4
+                %h3.ui.header
                   Gas Company
                 .ui.divider
                 .ui.accordion
@@ -47,7 +47,7 @@ title: "Best Practices"
                         = gas_company.background
             - if subsection.municipalities  
               .column
-                %h4
+                %h3.ui.header
                   Municipality
                 .ui.divider
                 .ui.accordion
@@ -62,7 +62,7 @@ title: "Best Practices"
                         = municipality.background
             - if subsection.both  
               .column
-                %h4
+                %h3.ui.header
                   Municipality & Gas Company
                 .ui.divider
                 .ui.accordion
