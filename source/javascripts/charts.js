@@ -153,7 +153,7 @@
           var i = d3.interpolate(start, total);  
 
           return function(t) {
-            d3.select(this).text("$" + d3.format(',.0f')(i(t)));
+            d3.select(this).text("$" + d3.format(',.3r')(i(t)));
           };
         });
     }
