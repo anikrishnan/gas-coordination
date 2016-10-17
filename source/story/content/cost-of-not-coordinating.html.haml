@@ -3,28 +3,34 @@
     %header
       %h2 The Cost of Not Coordinating
     %p
-      .ui.two.column.grid
-        .eight.wide.column
-          %p
+      Re-paving roads is expensive. What's the cost of not coordinating? How much could be saved?
     .ui.grid
-      .twelve.wide.column
+      .eleven.wide.column
         .chart#coordination
-      .four.wide.column
-        Assumptions:
-        %form#assumptions.ui.form
-          %p
-            %input{:checked => "checked", :id => "0.3", :name => "radio", :type => "radio", :value => "0.3"}/
-            %label{:for => "0.3"} 30% of roads coordinated
-          %p
-            %input{:id => "0.4", :name => "radio", :type => "radio", :value => "0.4"}/
-            %label{:for => "0.4"} 40% of roads coordinated
-          %p
-            %input{:id => "0.5", :name => "radio", :type => "radio", :value => "0.5"}/
-            %label{:for => "0.5"} 50% of roads coordinated
-          %p
-            %input#1{:name => "radio", :type => "radio", :value => "1"}/
-            %label{:for => "1"} 100% of roads coordinated
+      .five.wide.column
         %h3 Total Saved:
         %h3#total-saved{:style => "color: #63afaa"}
-        %p Over 15 years
+        %p Over 15 Years.
+        %p{style: "font-size: .8em; line-height: 1.2em;"} 
+          This cost-savings analysis assumes a certain percentage of roads can be coordinated. To change this assumption, select from the options below:
+        %form#assumptions.ui.form
+          .inline.fields
+            .field  
+              .ui.radio.checkbox
+                %input{:checked => "checked", :id => "0.3", :name => "radio", :type => "radio", :value => "0.3"}/
+                %label{:for => "0.3"} 30%
+            .field  
+              .ui.radio.checkbox
+                %input{:id => "0.4", :name => "radio", :type => "radio", :value => "0.4"}/
+                %label{:for => "0.4"} 40%
+            .field  
+              .ui.radio.checkbox
+                %input{:id => "0.5", :name => "radio", :type => "radio", :value => "0.5"}/
+                %label{:for => "0.5"} 50%
+            .field  
+              .ui.radio.checkbox
+                %input#1{:name => "radio", :type => "radio", :value => "1"}/
+                %label{:for => "1"} 100%
+        %p
+          of roads were coordinated.
   %a.button.style2.down.anchored{:href => "#functional-street"} Next

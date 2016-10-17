@@ -10,11 +10,12 @@ header {
   // color: white;
   font-family: "open-sans",sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   text-align: left;
   h2 {
     font-family: "le-monde-livre-classic-byol",serif;
     text-align: center;
+    font-weight: 300;
   }
 }
 
@@ -45,8 +46,10 @@ header {
   }
 
   .c3, svg, .c3 svg {
-   // font: 1em sans-serif;
-   // font-family: 'Helvetica';
+   font: 0.8em sans-serif;
+   font-family: "open-sans",sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
 
   .c3-legend-item {
@@ -102,4 +105,8 @@ header {
   @extend #work;
   background-color: white;
   margin-top: 3em;
+}
+
+#guide {
+  background-color: #f5f6f7;
 }

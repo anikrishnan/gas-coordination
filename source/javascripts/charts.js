@@ -38,7 +38,7 @@
             },
             tick: {
               format: function(d) {
-                return "$" + d3.format('s')(d);
+                return "$" + d3.format('.2s')(d);
               }
             }
           }
@@ -153,7 +153,7 @@
           var i = d3.interpolate(start, total);  
 
           return function(t) {
-            d3.select(this).text("$" + d3.format('.2s')(i(t)));
+            d3.select(this).text("$" + d3.format(',.0f')(i(t)));
           };
         });
     }
