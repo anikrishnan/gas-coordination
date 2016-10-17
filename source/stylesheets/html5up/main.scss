@@ -513,7 +513,7 @@ $lightpurple: #ddcce4;
 					letter-spacing: 2px;
 				}
 			}
-			height: calc(100vh + 500px);
+			height: calc(100vh + 300px);
 		}
 
 		&.style1 {
@@ -888,19 +888,18 @@ $lightpurple: #ddcce4;
 	}
 
 	#underground {
-		background: url('../images/story/gasleaksform.svg') no-repeat;
+		background: url('../images/story/gasleaksform.svg') no-repeat center center;
 		background-color: rgb(32,32,39);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-size: cover;
+		background-position: top center;
+		background-size: 100%, cover;
 	}
 
 	/* One */
 
-	#gasleaksform {
-		background: url('../images/story/gasleaksform.png') no-repeat center center;
-		background-position: top center;
-	}
+	// #gasleaksform {
+	// 	background: url('../images/story/gasleaksform.png') no-repeat center center;
+	// 	background-position: top center;
+	// }
 
 /* Two */
 

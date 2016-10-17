@@ -19,8 +19,14 @@ header {
   }
 }
 
-#cost-not-coordinating {
-
+.box {
+  header {
+    h2 {
+      font-family: "le-monde-livre-classic-byol",serif;
+      text-align: left;
+      font-weight: 300;
+    }
+  }
 }
 
 .ui.divider:not(.vertical):not(.horizontal) {
@@ -109,10 +115,6 @@ header {
 
 #guide {
   background-color: #f5f6f7;
-}
-
-#underground.main.style2 {
-  padding: 9em 0 3em 0;
 }
 
 #underground {
