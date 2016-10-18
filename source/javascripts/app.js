@@ -17,5 +17,5 @@ $(document)
 ;
 
 $(window).load(function() {
-  $('#image-slider').twentytwenty();
+  $('#image-slider').twentytwenty({default_offset_pct: 0.4});
 });
