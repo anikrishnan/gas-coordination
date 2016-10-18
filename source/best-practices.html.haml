@@ -30,36 +30,6 @@ title: "Best Practices"
       - section.subsection.each_with_index do |subsection,index|
         %div{class: ["ui", "tab", "bottom", "segment", "attached", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
           .ui.equal.width.stackable.grid.container
-            - if subsection.gas_companies 
-              .column
-                %h3.ui.header
-                  Gas Company
-                .ui.divider
-                .ui.accordion
-                  - subsection.gas_companies.each_with_index do |gas_company, index|
-                    .title
-                      = (index + 1).to_s + "."
-                      &nbsp;
-                      = gas_company.best_practice
-                      %i.dropdown.icon
-                    .content
-                      %p 
-                        = gas_company.background
-            - if subsection.municipalities  
-              .column
-                %h3.ui.header
-                  Municipality
-                .ui.divider
-                .ui.accordion
-                  - subsection.municipalities.each_with_index do |municipality, index|
-                    .title
-                      = (index + 1).to_s + "."
-                      &nbsp;
-                      = municipality.best_practice
-                      %i.dropdown.icon
-                    .content
-                      %p
-                        = municipality.background
             - if subsection.both  
               .column
                 %h3.ui.header
@@ -75,6 +45,37 @@ title: "Best Practices"
                     .content
                       %p
                         = both.background
+            .equal.width.row
+              - if subsection.gas_companies 
+                .column
+                  %h3.ui.header
+                    Gas Company
+                  .ui.divider
+                  .ui.accordion
+                    - subsection.gas_companies.each_with_index do |gas_company, index|
+                      .title
+                        = (index + 1).to_s + "."
+                        &nbsp;
+                        = gas_company.best_practice
+                        %i.dropdown.icon
+                      .content
+                        %p 
+                          = gas_company.background
+              - if subsection.municipalities  
+                .column
+                  %h3.ui.header
+                    Municipality
+                  .ui.divider
+                  .ui.accordion
+                    - subsection.municipalities.each_with_index do |municipality, index|
+                      .title
+                        = (index + 1).to_s + "."
+                        &nbsp;
+                        = municipality.best_practice
+                        %i.dropdown.icon
+                      .content
+                        %p
+                          = municipality.background
   %div{ class: ["ui", "segment", "tab"], "data-tab": "resources" }
     %h2.ui.header
       Resources
