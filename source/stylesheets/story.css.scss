@@ -135,3 +135,15 @@ header {
 .twentytwenty-before {
   background-color: white;
 }
+
+#accelerating {
+  .image.fit  {
+    padding: 10px;
+  }
+}
+
+#accelerating {
+  .image:before {
+    background: none;
+  }
+}
