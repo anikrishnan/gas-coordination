@@ -8,7 +8,7 @@
     var assumption = 0.3;
     var cost = 202500;  
     function coordination_data() {
-      return 'https://mapc-admin.carto.com/api/v2/sql?q=select%20to_date(split_part(year%2C%27-%27%2C1)%2C%20%27YYYY%27)%20AS%20year%2C%20SUM(annual_cost)%2F5%20AS%20%22Status%20Quo%22%2C%20SUM((annual_cost%2F5)%20-%20(' + cost + '%3A%3Aint%20*%20miles%20*%20' + assumption + '%20%2F%205))%20AS%20%22With%20Coordination%22%2C%20SUM(202500%3A%3Aint%20*%20miles%20*%20' + assumption + ')%20AS%20savings_5yr%20FROM%20%22mapc-admin%22.gas_leaks_coordination_raw_data%20GROUP%20BY%20year%20ORDER%20BY%20year&format=csv'
+      return 'https://mapc-admin.carto.com/api/v2/sql?q=select%20to_date(split_part(year%2C%27-%27%2C1)%2C%20%27YYYY%27)%20AS%20year%2C%20SUM(annual_cost)%2F5%20AS%20%22Status%20Quo%22%2C%20SUM((annual_cost%2F5)%20-%20(' + cost + '%3A%3Aint%20*%20miles%20*%20' + assumption + '%20%2F%205))%20AS%20%22With%20Coordination%22%2C%20SUM(153050%3A%3Aint%20*%20miles%20*%20' + assumption + ')%20AS%20savings_5yr%20FROM%20%22mapc-admin%22.gas_leaks_coordination_raw_data%20GROUP%20BY%20year%20ORDER%20BY%20year&format=csv'
     }
 
     var chart = c3.generate({
