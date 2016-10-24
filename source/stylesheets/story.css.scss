@@ -111,8 +111,11 @@ header {
 
 #accelerating {
   @extend #work;
-  background-color: white;
-  margin-top: 3em;
+  background-color: #189a8c;
+  padding-top: 3em;
+  color: white;
+  padding-bottom: 3em;
+  margin-bottom: 0;
 }
 
 #guide {
@@ -147,4 +150,9 @@ header {
   .image:before {
     background: none;
   }
+}
+
+
+.ui.divider.green.left {
+  margin-left: 0;
 }
