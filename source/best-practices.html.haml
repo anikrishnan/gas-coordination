@@ -11,14 +11,14 @@ title: "Best Practices"
         %div.ui.circular.label
           = index + 1
         &nbsp;
-        = section.section
+        = section.section.upcase
     %a{class: ["item"], "data-tab": "resources" }
       / fix for specific icon
       %i.inverted.grey.circular.book.icon#fontsizefix
       &nbsp;
       Resources
   - data.bestpractices.each_with_index do |section, index|
-    %div{ class: ["ui", "segment", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
+    %div{ class: ["ui", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
       %h2.ui.header
         = section.section
       %p
@@ -26,7 +26,7 @@ title: "Best Practices"
       .ui.top.attached.pointing.menu
         - section.subsection.each_with_index do |subsection,index|
           %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
-            = subsection.name
+            = subsection.name.upcase
       - section.subsection.each_with_index do |subsection,index|
         %div{class: ["ui", "tab", "bottom", "segment", "attached", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
           .ui.equal.width.stackable.grid.container
@@ -78,7 +78,7 @@ title: "Best Practices"
                           = municipality.background
   %div{ class: ["ui", "segment", "tab"], "data-tab": "resources" }
     %h2.ui.header
-      Resources
+      RESOURCES
     %ul.ui.list
       %li.ui.header
         %a{href: "Reformat_BestPracticeCheckList_Municipalities.pdf", target: "_blank"}

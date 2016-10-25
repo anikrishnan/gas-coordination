@@ -237,3 +237,19 @@ button {
   overflow: visible;
   height: 9em;
 }
+
+.best-practices {
+  p {
+    line-height: 1.75em !important;
+  }
+  .ui.accordion .title:not(.ui) {
+    padding: 0 !important;
+  }
+}
+
+.green {
+  color: $green
+}
+.ui.divider.green.left {
+  margin-left: 0;
+}
