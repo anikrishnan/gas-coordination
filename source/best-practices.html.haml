@@ -19,7 +19,7 @@ title: "Best Practices"
       RESOURCES
   - data.bestpractices.each_with_index do |section, index|
     %div{ class: ["ui", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
-      %h3.ui.header
+      %h2.ui.header
         = section.section
       %p
         = section.description
@@ -41,7 +41,7 @@ title: "Best Practices"
                       = (index + 1).to_s + "."
                       &nbsp;
                       = both.best_practice
-                      %i.dropdown.icon
+                      %i.dropdown.icon.green
                     .content
                       %p
                         = both.background
@@ -57,7 +57,7 @@ title: "Best Practices"
                         = (index + 1).to_s + "."
                         &nbsp;
                         = gas_company.best_practice
-                        %i.dropdown.icon
+                        %i.dropdown.icon.green
                       .content
                         %p 
                           = gas_company.background
@@ -72,12 +72,12 @@ title: "Best Practices"
                         = (index + 1).to_s + "."
                         &nbsp;
                         = municipality.best_practice
-                        %i.dropdown.icon
+                        %i.dropdown.icon.green
                       .content
                         %p
                           = municipality.background
   %div{ class: ["ui", "segment", "tab"], "data-tab": "resources" }
-    %h3.ui.header
+    %h2.ui.header
       Resources
     %ul.ui.list
       %li.ui.header

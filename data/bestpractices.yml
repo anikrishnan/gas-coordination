@@ -66,37 +66,63 @@
       name: "Infrastructure Plans"
       municipalities:
         -
-          best_practice: Develop and update annually pavement management plan that identifies street segments slated for paving by year and with type of paving.
+          best_practice: Maintain three year plans for paving, water and sewer infrastructure upgrades.
           background: >
-            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+            Maintain three to five year plans for municipal infrastructure and paving that identify replacement and other excavation needs.
+
+            Gas companies recognize that these municipal plans cannot be static and will be impacted by availability of Chapter 90 funds, emergency infrastructure problems and local politics. Nevertheless, gas companies stressed that having information from the municipality about its priorities for infrastructure projects is critical to maximize their ability to shift projects to align with municipal schedules. 
+
+            Plan data for years two and beyond does not necessarily have to be as comprehensive and detailed as the first year. For example, it could contain entire streets, rather than address-to-address segments and/or a short-list of wish-list items, rather than comprehensive plan. The gas companies noted that their second and third year of main replacement plans is not as detailed as the first year either.
+
+            *Update by end of January to mid-February each year
         -
-          best_practice: Determine full list of which municipal plans and records are needed and by which groups
+          best_practice: Update annually list of completed paving, water and sewer projects.
           background: >
-            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+            Gas companies report that completed information is vital in order to know which streets are under street-cut moratorium or which might still have opportunities for collaboration. Having this data will also help the municipality update infrastructure plans. 
+
+            *Track this information during the construction season or compile it immediately after
+        -
+          best_practice: Maintain street-cut moratorium list
+          background: >
+            List should show the year the street was  paved and preferably be mapped using GIS. 
+
+            Roughly a two thirds of municipalities surveyed were already maintaining such a list.
     -
       name: "Data Management"
       gas_companies: 
         -
-          best_practice: Determine full list of which municipal plans and records are needed and by which groups
+          best_practice: Coordinate requests for municipal data and sharing updates between departments.
           background: >
-            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+            Coordination includes determining internal department needs for municipal plans and information and then assign responsibilities for data requests.
+
+            Municipalities reported instances of providing information to the gas company, but it appeared information was not appropriately shared with other groups. This led to duplicative data requests and information not being acted upon. 
         -
           best_practice: Assign responsibilities for making data requests to municipalities and sharing data and updates
           background: >
             to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
       municipalities: 
         -
-          best_practice: Acquire access to Geographic Information Systems (GIS)
+          best_practice: Acquire access to Geographic Information Systems (GIS).
           background: >
-            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
+            Software (i.e. desktop) and online-based options exist for GIS.
+
+            GIS can act as a database to track municipal plans and completed projects, based on the street segments on which they occur. GIS also visualizes the plan in map form. This makes it easy to review location data for mistakes (such as repaving Main Street vs Main Terrace). And maps are useful for engaging the public and communicating plans. 
+
+            Additionally, GIS allows for efficient comparison of the municipality’s multi-year plans, as well as the gas company or other utilities. Through mapping and built-in analysis tool, GIS can identify areas of overlap between plans, even if they occur in different years. At a minimum, printing a paper map can make discussions with utilities more fruitful than trying to compare lists on a spreadsheet.
+
+            GIS is commonly used by most municipalities in the study (92%). Unlike a standalone database, GIS has applications beyond roadwork coordination, making it a valuable acquisition for a municipality if it is not already in use. 
         -
-          best_practice: "In cities with complex coordination needs, explore the potential and need for a data-base system like COBUCs"
+          best_practice: "Keep paving, water, and sewer infrastructure plans in GIS and produce map."
+        -
+          best_practice: "Keep street-cut moratorium list in GIS and produce map."
+        -
+          best_practice: "Explore need for a data-base system, like COBUCS"
           background: >
-            to avoid duplicative requests and facilitate sharing of plans and updates to appropriate departments.
-        -
-          best_practice: "Ensure at least one staff member is trained on use of GIS"
-        -
-          best_practice: "Put paving, water, and sewer plans and completed paving data into into GIS "
+            Database software allows access to users in addition to the municipality, such as the gas company and other utilities. User's input planned projects according to address segments, and the database can automatically identify shared opportunities or conflicts. The database can also include rules that ensure format and quality of data. However, a database was only used by the City of Boston in this study.
+
+            The rarity of a database likely reflects the fact that 1) it is most beneficial in the municipalities with lots of projects and lots of parties to coordinate and 2) there is a substantial cost to developing or purchase a database service. 
+
+            Municipalities could evaluate a database as a longer term solution if it fits their needs and funding can be made available.
 - 
   section: "Share & Strategize"
   description: >
