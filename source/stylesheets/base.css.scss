@@ -35,7 +35,7 @@ body {
 }
 
 h1.ui.header {
-  font-size: 4rem;
+  font-size: 3rem;
   color: $green;
 }
 
@@ -252,4 +252,15 @@ button {
 }
 .ui.divider.green.left {
   margin-left: 0;
+}
+
+.menu {
+  a {
+    font-family: "open-sans",sans-serif !important;
+    font-weight: 300 !important;
+  }
+}
+
+.ui.segment {
+  font-size: inherit !important;
 }

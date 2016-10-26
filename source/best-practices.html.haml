@@ -19,7 +19,7 @@ title: "Best Practices"
       RESOURCES
   - data.bestpractices.each_with_index do |section, index|
     %div{ class: ["ui", "tab", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') }
-      %h2.ui.header
+      %h3.ui.header
         = section.section
       %p
         = section.description
@@ -77,7 +77,7 @@ title: "Best Practices"
                         %p
                           = municipality.background
   %div{ class: ["ui", "segment", "tab"], "data-tab": "resources" }
-    %h2.ui.header
+    %h3.ui.header
       Resources
     %ul.ui.list
       %li.ui.header
