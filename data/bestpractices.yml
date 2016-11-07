@@ -340,7 +340,7 @@
 
             Making a map public on the municipality’s website will likely be much less time intensive than trying to notify only the residents on specific street segments.
     -
-      name: "Trench / Street Opening Permits"
+      name: "Street Opening Permits"
       municipalities: 
         -
           best_practice: "Process permits at least two weeks before the start of construction season."
@@ -361,7 +361,7 @@
 
             Some municipalities have online permitting in other departments, such as building permits, but not in Public Works. Those municipalities should look to expand their permits to street opening.
     -
-      name: "Mark-Outs for Underground Infrastructure"
+      name: "Infrastructure Mark-Outs"
       gas_companies:
         -
           best_practice: "Mark out abandoned gas mains."
@@ -423,7 +423,7 @@
 
             To achieve better compaction and less settling, talk with the gas company about using a soil compaction meter during the restoration process. Eversource has piloted these in the Cities of Marlborough and Cambridge.
     -
-      name: "Street Tree Plantings"
+      name: "Street Trees"
       municipalities: 
         -
           best_practice: "Require that an arborist or tree contractor check soil in tree pits for the presence of natural gas."
