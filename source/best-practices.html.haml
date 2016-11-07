@@ -23,7 +23,7 @@ title: "Best Practices"
         = section.section
       %p
         = section.description
-      .ui.top.attached.pointing.menu
+      .ui.top.attached.pointing.menu{style: "overflow-x: scroll;"}
         - section.subsection.each_with_index do |subsection,index|
           %a{class: ["item", ("active" unless (index > 0)) ], "data-tab": section.section.parameterize('_') + "/" + subsection.name.parameterize('_') }
             = subsection.name.upcase
